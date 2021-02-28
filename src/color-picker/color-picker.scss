@@ -1,0 +1,40 @@
+$width: 101px;
+
+.color-picker {
+  position: relative;
+  section {
+    margin-bottom: 20px;
+  }
+}
+
+.picker {
+   width: $width;
+  height: 101px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  box-sizing: content-box;
+}
+
+.pixel {
+  width: 1px;
+  height: 1px;
+  box-sizing: content-box;
+  font-size: 0;
+}
+
+.sample {
+  width: $width;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.field {
+  width: $width;
+  margin: 0 auto;
+  input {
+    width: 100%;
+  }
+}
